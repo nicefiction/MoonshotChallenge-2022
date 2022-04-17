@@ -76,7 +76,7 @@ struct MissionView: View {
                         ForEach(missionAstronauts,
                                 id: \.astronaut.id) { (eachMissionAstronaut: MissionAstronaut) in
                             NavigationLink(destination: {
-                                AstronautView()
+                                AstronautView(missionAstronaut: eachMissionAstronaut.astronaut)
                             }, label: {
                                 Image(eachMissionAstronaut.astronaut.id)
                                     .resizable()
