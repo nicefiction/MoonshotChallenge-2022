@@ -11,6 +11,8 @@
 		C5080C68280CA0BE00B48BFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C67280CA0BE00B48BFD /* ContentView.swift */; };
 		C5080C6A280CA0BF00B48BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5080C69280CA0BF00B48BFD /* Assets.xcassets */; };
 		C5080C6D280CA0BF00B48BFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5080C6C280CA0BF00B48BFD /* Preview Assets.xcassets */; };
+		C5080C78280CA2C400B48BFD /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = C5080C76280CA2C400B48BFD /* astronauts.json */; };
+		C5080C79280CA2C400B48BFD /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = C5080C77280CA2C400B48BFD /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C5080C67280CA0BE00B48BFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5080C69280CA0BF00B48BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5080C6C280CA0BF00B48BFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5080C76280CA2C400B48BFD /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		C5080C77280CA2C400B48BFD /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,9 @@
 				C5080C67280CA0BE00B48BFD /* ContentView.swift */,
 				C5080C69280CA0BF00B48BFD /* Assets.xcassets */,
 				C5080C6B280CA0BF00B48BFD /* Preview Content */,
+				C5080C73280CA23E00B48BFD /* Data */,
+				C5080C74280CA25100B48BFD /* Model */,
+				C5080C75280CA25C00B48BFD /* View */,
 			);
 			path = MoonshotChallenge;
 			sourceTree = "<group>";
@@ -65,6 +72,29 @@
 				C5080C6C280CA0BF00B48BFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5080C73280CA23E00B48BFD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5080C76280CA2C400B48BFD /* astronauts.json */,
+				C5080C77280CA2C400B48BFD /* missions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C5080C74280CA25100B48BFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5080C75280CA25C00B48BFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5080C78280CA2C400B48BFD /* astronauts.json in Resources */,
 				C5080C6D280CA0BF00B48BFD /* Preview Assets.xcassets in Resources */,
+				C5080C79280CA2C400B48BFD /* missions.json in Resources */,
 				C5080C6A280CA0BF00B48BFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
