@@ -34,7 +34,6 @@ struct MoonshotChallengeApp: App {
 /*
  // MARK: - NESTED TYPES
  // MARK: - STATIC PROPERTIES
- // MARK: - NESTED TYPES
  // MARK: - PROPERTY WRAPPERS
  // MARK: - PROPERTIES
  // MARK: - INITIALIZERS
@@ -54,7 +53,6 @@ struct MoonshotChallengeApp: App {
 /*
  // MARK: - NESTED TYPES
  // MARK: - STATIC PROPERTIES
- // MARK: - NESTED TYPES
  // MARK: - PROPERTY WRAPPERS
  // MARK: - PROPERTIES
  // MARK: - INITIALIZERS

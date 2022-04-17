@@ -11,7 +11,6 @@ struct Mission: Codable,
         
         // MARK: - NESTED TYPES
         // MARK: - STATIC PROPERTIES
-        // MARK: - NESTED TYPES
         // MARK: - PROPERTY WRAPPERS
         // MARK: - PROPERTIES
         let name: String
@@ -29,7 +28,6 @@ struct Mission: Codable,
     
     
     // MARK: - STATIC PROPERTIES
-    // MARK: - NESTED TYPES
     // MARK: - PROPERTY WRAPPERS
     // MARK: - PROPERTIES
     let id: Int

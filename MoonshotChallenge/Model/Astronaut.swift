@@ -8,7 +8,6 @@ struct Astronaut: Codable,
     
     // MARK: - NESTED TYPES
     // MARK: - STATIC PROPERTIES
-    // MARK: - NESTED TYPES
     // MARK: - PROPERTY WRAPPERS
     // MARK: - PROPERTIES
     let id: String
