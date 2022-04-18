@@ -23,6 +23,7 @@
 		C5080C8C280D421F00B48BFD /* MissionCrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C8B280D421F00B48BFD /* MissionCrewView.swift */; };
 		C5080C8E280D4AEF00B48BFD /* MissionGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C8D280D4AEF00B48BFD /* MissionGridView.swift */; };
 		C5080C90280D4CD000B48BFD /* MissionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C8F280D4CD000B48BFD /* MissionListView.swift */; };
+		C5080C92280D564300B48BFD /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C91280D564300B48BFD /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		C5080C8B280D421F00B48BFD /* MissionCrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCrewView.swift; sourceTree = "<group>"; };
 		C5080C8D280D4AEF00B48BFD /* MissionGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionGridView.swift; sourceTree = "<group>"; };
 		C5080C8F280D4CD000B48BFD /* MissionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListView.swift; sourceTree = "<group>"; };
+		C5080C91280D564300B48BFD /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				C5080C7F280CA4C900B48BFD /* Bundle+Decodable.swift */,
 				C5080C88280D3F2C00B48BFD /* View.swift */,
+				C5080C91280D564300B48BFD /* Color-Theme.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5080C92280D564300B48BFD /* Color-Theme.swift in Sources */,
 				C5080C84280CB98400B48BFD /* AstronautView.swift in Sources */,
 				C5080C7B280CA32500B48BFD /* Astronaut.swift in Sources */,
 				C5080C80280CA4C900B48BFD /* Bundle+Decodable.swift in Sources */,

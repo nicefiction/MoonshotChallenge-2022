@@ -39,6 +39,7 @@ struct ContentView: View {
                 } else {
                     MissionListView.init(astronauts: astronauts,
                                          missions: missions)
+                    // .listRowBackground(Color.darkBackground)
                 }
             }
             .navigationTitle("Moonshot")
