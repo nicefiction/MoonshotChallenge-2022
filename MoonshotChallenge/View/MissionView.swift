@@ -31,7 +31,7 @@ struct MissionView: View {
     // MARK: - PROPERTIES
     let mission: Mission
     let astronauts: Dictionary<String, Astronaut>
-    var missionAstronauts: Array<MissionAstronaut>
+    var missionAstronauts: Array<MissionView.MissionAstronaut>
     
     
     
@@ -75,34 +75,7 @@ struct MissionView: View {
                 }
                 ScrollView(.horizontal,
                            showsIndicators: false) {
-                    HStack {
-                        ForEach(missionAstronauts,
-                                id: \.astronaut.id) { (eachMissionAstronaut: MissionAstronaut) in
-                            NavigationLink(destination: {
-                                AstronautView(missionAstronaut: eachMissionAstronaut.astronaut)
-                            }, label: {
-                                Image(eachMissionAstronaut.astronaut.id)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 104.0,
-                                           height: 72.0)
-                                    .clipShape(Capsule())
-                                    .overlay(
-                                        Capsule()
-                                            .strokeBorder(lineWidth: 1.0)
-                                            .foregroundColor(.white)
-                                    )
-                                VStack(alignment: .leading) {
-                                    Text(eachMissionAstronaut.astronaut.name)
-                                        .font(.headline)
-                                        .foregroundColor(.white)
-                                    Text(eachMissionAstronaut.role)
-                                        .font(.subheadline)
-                                        .foregroundColor(.secondary)
-                                }
-                            })
-                        }
-                    }
+                    MissionCrewView(missionAstronauts: missionAstronauts)
                 }
             }
         }
