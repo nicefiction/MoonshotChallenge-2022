@@ -7,6 +7,11 @@ struct ContentView: View {
     
     // MARK: - NESTED TYPES
     // MARK: - STATIC PROPERTIES
+    @State private var isShowingGridView: Bool = true
+    @State private var toolbarTitle: String = "List"
+    
+    
+    
     // MARK: - PROPERTY WRAPPERS
     // MARK: - PROPERTIES
     let astronauts: Dictionary<String, Astronaut> =
@@ -26,32 +31,26 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            ScrollView {
-                LazyVGrid(columns: adaptiveColumnLayout) {
-                    ForEach(missions) { (eachMission: Mission) in
-                        NavigationLink(destination: {
-                            MissionView(mission: eachMission,
-                                        astronauts: astronauts)
-                        }, label: {
-                            VStack {
-                                Image(eachMission.imageName)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 110,
-                                           height: 110)
-                                Text(eachMission.displayName)
-                                    .font(.headline)
-                                    .foregroundColor(.white)
-                                Text(eachMission.formattedLaunchDate)
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
-                            }
-                            .padding()
-                        })
-                    }
+            Group {
+                if isShowingGridView {
+                    MissionGridView.init(astronauts: astronauts,
+                                         columnGridLayout: adaptiveColumnLayout,
+                                         missions: missions)
+                } else {
+                    MissionListView.init(astronauts: astronauts,
+                                         missions: missions)
                 }
             }
             .navigationTitle("Moonshot")
+            .toolbar(content: {
+                Button(action: {
+                    isShowingGridView.toggle()
+                    toolbarTitle = isShowingGridView ? "List" : "Grid"
+                }, label: {
+                    Text(toolbarTitle)
+                        .foregroundColor(.white)
+                })
+            })
             .preferredColorScheme(.dark)
         }
     }

@@ -21,6 +21,8 @@
 		C5080C87280D3DF900B48BFD /* CapsuleFrameStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C86280D3DF900B48BFD /* CapsuleFrameStyle.swift */; };
 		C5080C89280D3F2C00B48BFD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C88280D3F2C00B48BFD /* View.swift */; };
 		C5080C8C280D421F00B48BFD /* MissionCrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C8B280D421F00B48BFD /* MissionCrewView.swift */; };
+		C5080C8E280D4AEF00B48BFD /* MissionGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C8D280D4AEF00B48BFD /* MissionGridView.swift */; };
+		C5080C90280D4CD000B48BFD /* MissionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080C8F280D4CD000B48BFD /* MissionListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		C5080C86280D3DF900B48BFD /* CapsuleFrameStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleFrameStyle.swift; sourceTree = "<group>"; };
 		C5080C88280D3F2C00B48BFD /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C5080C8B280D421F00B48BFD /* MissionCrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCrewView.swift; sourceTree = "<group>"; };
+		C5080C8D280D4AEF00B48BFD /* MissionGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionGridView.swift; sourceTree = "<group>"; };
+		C5080C8F280D4CD000B48BFD /* MissionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				C5080C8B280D421F00B48BFD /* MissionCrewView.swift */,
+				C5080C8D280D4AEF00B48BFD /* MissionGridView.swift */,
+				C5080C8F280D4CD000B48BFD /* MissionListView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 				C5080C7B280CA32500B48BFD /* Astronaut.swift in Sources */,
 				C5080C80280CA4C900B48BFD /* Bundle+Decodable.swift in Sources */,
 				C5080C87280D3DF900B48BFD /* CapsuleFrameStyle.swift in Sources */,
+				C5080C8E280D4AEF00B48BFD /* MissionGridView.swift in Sources */,
+				C5080C90280D4CD000B48BFD /* MissionListView.swift in Sources */,
 				C5080C8C280D421F00B48BFD /* MissionCrewView.swift in Sources */,
 				C5080C68280CA0BE00B48BFD /* ContentView.swift in Sources */,
 				C5080C89280D3F2C00B48BFD /* View.swift in Sources */,

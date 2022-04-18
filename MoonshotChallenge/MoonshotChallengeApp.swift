@@ -41,7 +41,6 @@ struct MoonshotChallengeApp: App {
  var body: some View {
  
      Text("Hello, world!")
-         .padding()
  }
  
  
