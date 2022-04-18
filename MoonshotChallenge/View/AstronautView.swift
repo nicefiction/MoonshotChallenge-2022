@@ -45,7 +45,7 @@ struct AstronautView: View {
 struct AstronautView_Previews: PreviewProvider {
     
     // MARK: - STATIC PROPERTIES
-    static var astronauts: Dictionary<String, Astronaut> =
+    static let astronauts: Dictionary<String, Astronaut> =
     Bundle.main.decode(file: "astronauts",
                        withFileExtension: "json")
     
